@@ -20,24 +20,6 @@
 - `character_3d_no_labels.png`: 人物词向量的3D可视化（无标注）
 - `character_wordcloud.png`: 人物名称的词云图
 
-### 数据文件
-- `name_coords_2d.pkl`: 人名与2D坐标的映射数据（Python pickle格式）
-- `name_coords_3d.pkl`: 人名与3D坐标的映射数据（Python pickle格式）
-- `name_coords_2d.csv`: 人名与2D坐标的数据表（CSV格式）
-- `name_coords_3d.csv`: 人名与3D坐标的数据表（CSV格式）
-
-## 使用方法
-
-1. 安装依赖：
-```
-pip install -r requirements.txt
-```
-
-2. 运行主程序：
-```
-python main.py
-```
-
 ## 功能说明
 
 - 合并金庸小说全集到一个文本文件
@@ -52,12 +34,6 @@ python main.py
   - 生成分区图（将所有人名分成多个图，每张图最多显示200个人名）
   - 提供数据文件，可用于自定义分析和可视化
 
-## 中文字体支持
-
-程序会自动尝试多种方法来确保可视化结果中的中文能够正确显示：
-- 自动检测系统中可用的中文字体
-- 生成SVG格式的文件，保证矢量图中的中文显示正确
-- 使用词云作为备用可视化方法
 
 ## 预期结果
 
